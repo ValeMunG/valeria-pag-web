@@ -1,0 +1,98 @@
+h2, h3{
+    text-align: center;
+}
+a{
+    text-decoration: none; 
+    cursor: pointer;
+    color: black;
+}
+section{
+    margin: 70px 100px 0px 100px;
+}
+nav{
+    font-size: larger;
+}
+p, li, label, button{
+    font-size: large;
+}
+footer{
+    background-color: rgb(216, 187, 224); 
+    height: 280px; 
+    margin-top: 50px;
+}
+button{
+    font-family: 'Times New Roman', Times, serif; 
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+input{
+    border: none;
+}
+textarea{
+    resize: none; 
+    margin: 0px 20px; 
+    font-size: large; 
+    border: none;
+}
+#enviar_btn{
+    margin-top: 12px;
+    background-color: rgb(216, 187, 224);
+}
+.portada{
+    background-image: url(Images/Me_fondo.jpg); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 547px;
+}
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px;
+}
+.intereses{
+    background-color: rgb(216, 187, 224); 
+    text-align: center; 
+    width: 25%; 
+    margin: 5px 5px;
+}
+.intereses_i{
+    font-size: x-large; 
+    padding-top: 10px;
+}
+.me{
+    width: 280px;
+    height: 280px;
+}
+.logo_emprendimiento{
+    width: 335px; 
+    height: 200px;
+}
+.sobre_emprendimiento{
+    margin: 0px 100px; 
+    padding: 65px 0px;
+}
+.contacto{
+    padding-top: 25px;
+}
+.contacto_div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.redes_sociales{
+    border: 1px black solid; 
+    height: 50px; 
+    width: 50px; 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    margin: 0px 10px;
+}
+.rs{
+    padding-top: 13px;
+    font-size: x-large;
+}
